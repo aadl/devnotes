@@ -2,3 +2,30 @@ baseURL = "https://devnotes.aadl.org/"
 languageCode = "en-us"
 title = "AADL Devnotes"
 theme = "cocoa-eh"
+builddrafts = true
+canonifyurls = true
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+author = "AADL Dev Team"
+pluralizelisttitles = false
+
+[permalinks]
+blog = "blog/:slug/"
+
+[params]
+dateform = "Jan 2, 2006"
+dateformfull = "Mon Jan 2 2006 15:04:05 MST"
+description = "Development notes from AADL's Dev Team"
+copyright = "All content CC-by-NC unless otherwise specified."
+logofile = "images/logo.png"
+faviconfile = "images/logo.png"
+highlightjs = true
+#progressively = true
+align_left = false
+lang = "en"
+github = "aadl"
+twitter = "aadl_tech"
+social_banner = "img/banner.png"
+posts_navigation = true
+small_banner_logo = false
