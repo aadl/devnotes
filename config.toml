@@ -1,0 +1,4 @@
+baseURL = "https://devnotes.aadl.org/"
+languageCode = "en-us"
+title = "AADL Devnotes"
+theme = "cocoa-eh"
